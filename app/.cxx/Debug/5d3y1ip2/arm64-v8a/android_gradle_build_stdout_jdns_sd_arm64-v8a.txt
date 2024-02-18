@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Desktop\gworld\airplay_dlna_googlecast\src\Android\app\.cxx\Debug\5d3y1ip2\arm64-v8a'
+ninja: no work to do.

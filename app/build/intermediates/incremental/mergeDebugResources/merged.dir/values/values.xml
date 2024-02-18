@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="filterdirectory">
+    	<item>LOST.DIR</item>
+    	<item>RECYCLE</item>
+    	<item>DUMMY.DIR</item>
+    </string-array>
+    <string-array name="media_types" translatable="false">
+    	<item>image/My Pictures</item>
+    	<item>audio/My Musics</item>
+    	<item>video/My Videos</item>
+    </string-array>
+    <string-array name="permission_entries">
+        <item>Always Allow</item>
+        <item>Always Ask</item>
+        <item>Always Reject</item>
+    </string-array>
+    <string-array name="permission_entriesvalue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="play_mode">
+        <item>Single</item>
+        <item>Order</item>
+        <item>Repeat one</item>
+        <item>Repeat all</item>
+    </string-array>
+    <attr format="reference" name="alertDialogStyle"/>
+    <attr format="reference" name="buttonStyle"/>
+    <attr format="reference" name="dialogPreferenceStyle"/>
+    <attr format="reference" name="editTextPreferenceStyle"/>
+    <color name="black">#ff000000</color>
+    <color name="blue">#00f</color>
+    <color name="btn_color">#FF7DBAFA</color>
+    <color name="btn_pressed_color">#FF000000</color>
+    <color name="color_dark_grey">#808080</color>
+    <color name="color_green">#76CB13</color>
+    <color name="gray">#ddd</color>
+    <color name="green">#0f0</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="item_color">#FFFFFFFF</color>
+    <color name="item_desc_color">#FF1182C5</color>
+    <color name="item_selected_color">#FF56CB3C</color>
+    <color name="lyrics">#a3bfe5</color>
+    <color name="lyrics_hl">#7aba78</color>
+    <color name="path_color">#DDFFFFFF</color>
+    <color name="plug_vp_btn_color">#02000011</color>
+    <color name="primary_text_light">#FFFFFFFF</color>
+    <color name="red">#f00</color>
+    <color name="visualize_fx">#44b121</color>
+    <color name="white">#ffffff</color>
+    <dimen name="content_bg_ptop">2dip</dimen>
+    <dimen name="head_btn_margin">15dip</dimen>
+    <dimen name="head_btn_pleft">40dip</dimen>
+    <dimen name="head_btn_size">27sp</dimen>
+    <dimen name="head_height">120dip</dimen>
+    <dimen name="head_padding_left">5dip</dimen>
+    <dimen name="head_title_size">48sp</dimen>
+    <dimen name="item_desc_size">18sp</dimen>
+    <dimen name="item_padding">19dip</dimen>
+    <dimen name="item_size">23sp</dimen>
+    <dimen name="item_spacing">10dip</dimen>
+    <dimen name="item_width">190dip</dimen>
+    <dimen name="main_title_size">43sp</dimen>
+    <dimen name="padding_left">19dip</dimen>
+    <dimen name="padding_right">19dip</dimen>
+    <dimen name="toast_y_offset">30dip</dimen>
+    <item name="button1" type="id"/>
+    <item name="button2" type="id"/>
+    <item name="button3" type="id"/>
+    <item name="dms_ll_path" type="id"/>
+    <item name="edit" type="id"/>
+    <item name="edittext_container" type="id"/>
+    <item name="message" type="id"/>
+    <item name="switch_image" type="id"/>
+    <string name="app_name">screenGo.TV</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="buffering">Loading…</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+    <string name="device_name">eHomeMediaCenter</string>
+    <string name="device_windows">USB transmitter</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_openning_msg">Opening…</string>
+    <string name="dialog_operate">Operate</string>
+    <string name="dialog_prompt">Prompting</string>
+    <string name="dialog_search_msg">Device has not found，retry?</string>
+    <string name="dialog_searching_msg">Searching device...</string>
+    <string name="dialog_waiting">Waiting</string>
+    <string name="dialog_wlan_fail">Network Settings</string>
+    <string name="dialog_wlan_msg">Start DLNA need to open WLAN, confirm to open?</string>
+    <string name="dmd_clear_transfer_all">Clear All</string>
+    <string name="dmd_clear_transfer_msg">Are you sure to clear transfer item?</string>
+    <string name="dmd_clear_transfer_succ">Clear Completed</string>
+    <string name="dmd_file_not_exitsted">File does not exist</string>
+    <string name="dmd_key_clear">Clear transfer items</string>
+    <string name="dmd_key_ok">Selected</string>
+    <string name="dmp_back_last_dir">...</string>
+    <string name="dmp_btn_transfer">Transfer List</string>
+    <string name="dmp_device_item_desc"> Files</string>
+    <string name="dmp_download_add_item">Has been added to the transfer list</string>
+    <string name="dmp_download_add_item_fail">It can not add to the transfer list</string>
+    <string name="dmp_download_file_msg">Whether to download the file <ns1:g id="dd">%s</ns1:g></string>
+    <string name="dmp_invalid_device">Current device has already expired</string>
+    <string name="dmp_key_back">Back</string>
+    <string name="dmp_key_direction">Select</string>
+    <string name="dmp_key_download">Upload/Download the selected file</string>
+    <string name="dmp_key_ok">Selected/Play</string>
+    <string name="dmp_local_device"><ns1:g>%s</ns1:g>(Local)</string>
+    <string name="dmp_local_media_center">My Device</string>
+    <string name="dmp_media_device">Media Devices</string>
+    <string name="dmp_media_item_null">Invalid resource</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_request_fail">Media list request failure</string>
+    <string name="dmp_see_all_transfer">View transferring</string>
+    <string name="dmp_title">Media Player</string>
+    <string name="dmp_transfer_btn_delete">Delete all</string>
+    <string name="dmp_transfer_btn_delete_succ">Delete successfully items</string>
+    <string name="dmp_transfer_dialog_btn_delete">Clear</string>
+    <string name="dmp_transfer_dialog_btn_play">Play</string>
+    <string name="dmp_transfer_dialog_btn_retry">Retry</string>
+    <string name="dmp_transfer_dialog_btn_stop">Stop</string>
+    <string name="dmp_transfer_dialog_dest">Destination Location:  </string>
+    <string name="dmp_transfer_dialog_filesize">File Size:  </string>
+    <string name="dmp_transfer_dialog_src">Source Location:  </string>
+    <string name="dmp_transfer_dialog_title">Title:  </string>
+    <string name="dmp_transfer_file_msg">Whether to transfer the file <ns1:g id="dd">%s</ns1:g></string>
+    <string name="dmp_transfer_list">Transfer List</string>
+    <string name="dmp_transfer_list_dest">Destination Location</string>
+    <string name="dmp_transfer_list_src">Source Location</string>
+    <string name="dmp_transfer_list_status">Status</string>
+    <string name="dmp_transfer_list_title">Title</string>
+    <string name="dmp_transfer_status_fail">Failed</string>
+    <string name="dmp_transfer_status_succ">Completed</string>
+    <string name="dmp_transfer_status_waiting">Waiting</string>
+    <string name="dmp_upload_file_msg">Whether to upload the file <ns1:g id="dd">%s</ns1:g></string>
+    <string name="dms_add_share_folder">Add sharing</string>
+    <string name="dms_audio">My Musics</string>
+    <string name="dms_close_share">Stop Share</string>
+    <string name="dms_device_share">Local Sharing</string>
+    <string name="dms_device_storage">Local Storage Devices</string>
+    <string name="dms_flash_storage">Flash</string>
+    <string name="dms_image">My Pictures</string>
+    <string name="dms_key_del_share">Delete shared directory</string>
+    <string name="dms_key_enter_folder">Enter selected directory</string>
+    <string name="dms_key_set_folder">Set shared directory</string>
+    <string name="dms_open_share">Start Share</string>
+    <string name="dms_remove_directory">Determine to remove <ns1:g id="dd">%s</ns1:g> folder sharing?</string>
+    <string name="dms_remove_mediastore">Determine to remove shared media store?</string>
+    <string name="dms_sdcard_storage">SD Card</string>
+    <string name="dms_set_share">Add Share</string>
+    <string name="dms_set_share_folder">Add a directory to share</string>
+    <string name="dms_set_share_mediastore">Set local media store to share</string>
+    <string name="dms_share_disable_msg">Share disabling…</string>
+    <string name="dms_share_disabled">Share disabled</string>
+    <string name="dms_share_enable_msg">Share enabling…</string>
+    <string name="dms_share_enabled">Share enabled</string>
+    <string name="dms_title">Media Server</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_video">My Videos</string>
+    <string name="dmu_device_selector_title">Upload to</string>
+    <string name="init_time">00:00</string>
+    <string name="load_image_fail">"image load fail"</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_dms_initing">Media device is initializing, please waiting ...</string>
+    <string name="main_logo_name">eHomeMediaCenter</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="mp_cant_find_lyrics">the lrc can\'t be found</string>
+    <string name="mp_lyrics_tips">***   the lrc come from internet，just be reference   ***</string>
+    <string name="mp_unknown_album">Unknow Album</string>
+    <string name="mp_unknown_artist">Unknow Artist</string>
+    <string name="no_such_app">No application can open this file!</string>
+    <string name="parse_image_fail">"image parse fail"</string>
+    <string name="plug_image_app_name">Picture Viewer</string>
+    <string name="plug_image_first_img">It is already the first picture</string>
+    <string name="plug_image_last_img">It is already the last picture</string>
+    <string name="plug_image_slide">Start Play</string>
+    <string name="plug_image_stop_slide">Stop Play</string>
+    <string name="plug_music_app_name">Music Player</string>
+    <string name="plug_music_loading">Connecting to <ns1:g id="HOST">%s</ns1:g></string>
+    <string name="plug_music_playback_failed">Sorry, the player does not support this type of audio file.</string>
+    <string name="plug_video_app_name">Video Player</string>
+    <string name="plug_video_err_title">Cannot play video.</string>
+    <string name="plug_video_err_unknown">Sorry, this video cannot be played.</string>
+    <string name="plug_video_err_unsupport">Sorry, this video is not valid for streaming to this device.</string>
+    <string name="plug_video_loading">Loading…</string>
+    <string name="plug_video_playmode_title">Select play mode</string>
+    <string name="plug_video_unsupport_seek">Unsupport seek</string>
+    <string name="plug_video_waiting">Waiting</string>
+    <string name="second">S</string>
+    <string name="separate"> / </string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_auto_no">Does not run automatically</string>
+    <string name="settings_auto_start">Start automatically as the playback device</string>
+    <string name="settings_auto_yes">Run automatically</string>
+    <string name="settings_dmr">As a remote media playback device</string>
+    <string name="settings_dmr_closed">Closed</string>
+    <string name="settings_dmr_closing">Closing…</string>
+    <string name="settings_dmr_opened">Opened</string>
+    <string name="settings_dmr_opening">Opening…</string>
+    <string name="settings_key_ok">Change option</string>
+    <string name="settings_name">Set the name of the local media sharing</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_upload">Allows media files to be uploaded to local device</string>
+    <string name="settings_upload_allow">Allow upload</string>
+    <string name="settings_upload_location">Remote media files upload location</string>
+    <string name="settings_upload_reject">Reject upload</string>
+    <string name="settings_version">Version information</string>
+    <string name="toast_disconn_service">It has not bind to service. </string>
+    <string name="toast_musicplay_fail">music play error</string>
+    <string name="toast_videoplay_fail">video play error</string>
+    <string name="video_loading">Loading…</string>
+    <string name="video_speed_unit_second">S</string>
+    <style name="AlertDialog">
+        <item name="android:fullDark">@drawable/sys_dialog_center</item>
+        <item name="android:topDark">@drawable/sys_dialog_top</item>
+        <item name="android:centerDark">@drawable/sys_dialog_center</item>
+        <item name="android:bottomDark">@drawable/sys_dialog_bottom</item>
+        <item name="android:fullBright">@drawable/sys_dialog_center</item>
+        <item name="android:topBright">@drawable/sys_dialog_top</item>
+        <item name="android:centerBright">@drawable/sys_dialog_center</item>
+        <item name="android:bottomBright">@drawable/sys_dialog_bottom</item>
+        <item name="android:bottomMedium">@drawable/sys_dialog_bottom</item>
+        <item name="android:centerMedium">@drawable/sys_dialog_center</item>
+    </style>
+    <style name="DialogAlert" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+	 	<item name="android:alertDialogStyle">@style/AlertDialog</item>
+	 	<item name="android:buttonStyle">@style/SysButton</item>
+	 	<item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+    	<item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+       	<item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
+    </style>
+    <style name="DialogPreference" parent="@*android:style/Preference.DialogPreference">
+    	<item name="positiveButtonText">@string/dialog_ok</item>
+        <item name="negativeButtonText">@string/dialog_cancel</item>
+        <item name="android:widgetLayout">@layout/preference_dialog</item>
+    </style>
+    <style name="DialogPreference.EditTextPreference">
+        <item name="dialogLayout">@layout/preference_dialog_edittext</item>
+    </style>
+    <style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style>
+    <style name="KeyPrompt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">15dip</item>
+    </style>
+    <style mce_bogus="1" name="MainTheme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+		<item name="android:alertDialogStyle">@style/AlertDialog</item>
+		<item name="android:buttonStyle">@style/SysButton</item>
+		<item name="android:radioButtonStyle">@style/RadioButton</item>
+		<item name="android:textColorHint">@color/hint_foreground_light</item>
+		<item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+       	<item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
+    </style>
+    <style name="MainTheme.Settings">
+    	<item name="android:listPreferredItemHeight">100dip</item>
+		<item name="android:textAppearanceLarge">@style/TextAppearance.SettingsLarge</item>
+       	<item name="android:textAppearanceMedium">@style/TextAppearance.SettingsMedium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.SettingsSmall</item>
+    	<!-- Preference -->
+		<item name="dialogPreferenceStyle">@style/DialogPreference</item>
+		<item name="editTextPreferenceStyle">@style/DialogPreference.EditTextPreference</item>
+    </style>
+    <style name="MainTheme.TransTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MediaButton">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:background">@drawable/plug_vp_btn_bg</item>
+    </style>
+    <style name="MediaButton.Exit">
+        <item name="android:src">@drawable/plug_vp_exit</item>
+    </style>
+    <style name="MediaButton.Ffwd">
+        <item name="android:src">@drawable/plug_vp_next</item>
+    </style>
+    <style name="MediaButton.More">
+        <item name="android:src">@drawable/plug_vp_more</item>
+    </style>
+    <style name="MediaButton.Next">
+        <item name="android:src">@drawable/plug_vp_next</item>
+    </style>
+    <style name="MediaButton.Pause">
+        <item name="android:src">@drawable/plug_vp_pause</item>
+    </style>
+    <style name="MediaButton.Play">
+        <item name="android:src">@drawable/plug_vp_play</item>
+    </style>
+    <style name="MediaButton.Previous">
+        <item name="android:src">@drawable/plug_vp_previous</item>
+    </style>
+    <style name="MediaButton.Rew">
+        <item name="android:src">@drawable/plug_vp_previous</item>
+    </style>
+    <style name="MediaButton.ScreenBright">
+        <item name="android:src">@drawable/plug_vp_bright_mode</item>
+    </style>
+    <style name="MediaButton.ScreenMode">
+        <item name="android:src">@drawable/plug_vp_screen_mode</item>
+    </style>
+    <style name="MediaButton.Stop">
+        <item name="android:src">@drawable/plug_vp_stop</item>
+    </style>
+    <style name="PopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_enter</item>
+		<item name="android:windowExitAnimation">@anim/popup_exit</item>
+	</style>
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/sys_btn_radio</item>
+    </style>
+    <style name="SysButton" parent="@android:style/Widget.Button">
+        <item name="android:src">@drawable/sys_btn</item>
+        <item name="android:background">@drawable/sys_btn</item>
+        <item name="android:textColor">@drawable/head_btn_color</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+    <style name="SysButton.Dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="TextAppearance" parent="@android:style/TextAppearance"/>
+    <style name="TextAppearance.Large">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextAppearance.SettingsLarge">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="TextAppearance.SettingsMedium">
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="TextAppearance.SettingsSmall">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="VolumeButton">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">3dip</item>
+        <item name="android:paddingRight">3dip</item>
+        <item name="android:background">@drawable/plug_vp_btn_bg</item>
+    </style>
+    <style name="list_item_cell_seperator_layout"> 
+        <item name="android:layout_width">2dip</item> 
+        <item name="android:layout_height">fill_parent</item> 
+        <item name="android:background">@drawable/dmp_transfer_head_bg_sep</item> 
+    </style>
+    <declare-styleable name="AlertDialog">
+        <attr format="reference|color" name="fullDark"/>
+        <attr format="reference|color" name="topDark"/>
+        <attr format="reference|color" name="centerDark"/>
+        <attr format="reference|color" name="bottomDark"/>
+        <attr format="reference|color" name="fullBright"/>
+        <attr format="reference|color" name="topBright"/>
+        <attr format="reference|color" name="centerBright"/>
+        <attr format="reference|color" name="bottomBright"/>
+        <attr format="reference|color" name="bottomMedium"/>
+        <attr format="reference|color" name="centerMedium"/>
+    </declare-styleable>
+    <declare-styleable name="CountdownTextView">
+        <attr format="integer" name="count"/>
+    </declare-styleable>
+    <declare-styleable name="DialogPreference">
+        <!-- The title in the dialog. -->
+        <attr format="string" name="dialogTitle"/>
+        <!-- The message in the dialog. If a dialogLayout is provided and contains
+             a TextView with ID android:id/message, this message will be placed in there. -->
+        <attr format="string" name="dialogMessage"/>
+        <!-- The icon for the dialog. -->
+        <attr format="reference" name="dialogIcon"/>
+        <!-- The positive button text for the dialog. Set to @null to hide the positive button. -->
+        <attr format="string" name="positiveButtonText"/>
+        <!-- The negative button text for the dialog. Set to @null to hide the negative button. -->
+        <attr format="string" name="negativeButtonText"/>
+        <!-- A layout to be used as the content View for the dialog. By default, this shouldn't
+             be needed. If a custom DialogPreference is required, this should be set. For example,
+             the EditTextPreference uses a layout with an EditText as this attribute. -->
+        <attr format="reference" name="dialogLayout"/>
+    </declare-styleable>
+    <declare-styleable name="WeightedLinearLayout">
+        <attr format="float" name="majorWeight"/>
+        <attr format="float" name="minorWeight"/>
+        <attr format="boolean" name="fixedWidth"/>
+    </declare-styleable>
+</resources>
