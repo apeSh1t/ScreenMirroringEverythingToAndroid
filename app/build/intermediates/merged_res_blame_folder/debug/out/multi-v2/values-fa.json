@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
+            "outputFile": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
-                    "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\src\\main\\res\\values-fa\\strings.xml",
+                    "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\values-fa\\strings.xml",
                     "from": {
                         "startLines": "2,13,144,145,3,143,8,7,12,6,5,9,11,4,15,16,28,27,29,30,26,25,37,43,35,67,68,65,72,42,39,41,40,71,70,38,69,36,62,63,34,57,58,56,53,54,55,52,50,51,49,64,44,47,46,48,45,61,60,59,66,84,89,80,78,91,93,88,85,86,87,79,100,99,92,81,83,82,98,96,97,95,77,94,90,31,20,22,19,21,14,125,121,122,123,124,130,128,129,139,136,135,137,133,138,140,134,74,73,110,108,109,114,117,118,116,115,111,104,103,105,106,112,107,113,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

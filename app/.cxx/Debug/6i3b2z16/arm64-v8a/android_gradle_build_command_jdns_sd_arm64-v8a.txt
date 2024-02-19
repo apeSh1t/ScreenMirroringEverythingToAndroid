@@ -1,0 +1,7 @@
+Executable : D:\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\Desktop\gworld\airplay_dlna_googlecast\Android\app\.cxx\Debug\6i3b2z16\arm64-v8a
+jdns_sd
+jvmArgs : 
+

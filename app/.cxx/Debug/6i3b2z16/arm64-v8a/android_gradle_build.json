@@ -1,0 +1,41 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\CMakeLists.txt",
+    "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\cpp\\mDNSResponder\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\.cxx\\Debug\\6i3b2z16\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\.cxx\\Debug\\6i3b2z16\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "jdns_sd-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "D:\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\.cxx\\Debug\\6i3b2z16\\arm64-v8a",
+        "jdns_sd"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "jdns_sd",
+      "output": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\cxx\\Debug\\6i3b2z16\\obj\\arm64-v8a\\libjdns_sd.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

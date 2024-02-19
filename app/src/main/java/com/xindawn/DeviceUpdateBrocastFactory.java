@@ -14,7 +14,7 @@ public class DeviceUpdateBrocastFactory {
 	}
 	
 	
-	private DeviceUpdateBrocastReceiver mReceiver;
+	private DeviceUpdateBroadcastReceiver mReceiver;
 	private Context mContext;
 	
 	public DeviceUpdateBrocastFactory(Context context){
@@ -24,8 +24,8 @@ public class DeviceUpdateBrocastFactory {
 	
 	public void register(IDevUpdateListener listener){
 		if (mReceiver == null){
-			mReceiver = new DeviceUpdateBrocastReceiver();
-			mReceiver.setListener(listener);	
+			mReceiver = new DeviceUpdateBroadcastReceiver();
+			mReceiver.setListener(listener);
 			mContext.registerReceiver(mReceiver, new IntentFilter(PARAM_DEV_UPDATE));
 		}
 	}

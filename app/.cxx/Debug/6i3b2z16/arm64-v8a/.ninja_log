@@ -1,0 +1,6 @@
+# ninja log v5
+0	325	729927887	src/main/cpp/mDNSResponder/CMakeFiles/jdns_sd.dir/mDNSShared/dnssd_clientlib.c.o	1533ba42bf73467e
+125	443	729927887	src/main/cpp/mDNSResponder/CMakeFiles/jdns_sd.dir/JNISupport.c.o	7423a96603e88253
+195	458	729927887	src/main/cpp/mDNSResponder/CMakeFiles/jdns_sd.dir/mDNSShared/dnssd_ipc.c.o	8e3332890513bcd5
+58	471	729927887	src/main/cpp/mDNSResponder/CMakeFiles/jdns_sd.dir/mDNSShared/dnssd_clientstub.c.o	e2573a0d9318fc76
+471	1418	729927888	../../../../build/intermediates/cxx/Debug/6i3b2z16/obj/arm64-v8a/libjdns_sd.so	e9dd3309ee7c07f

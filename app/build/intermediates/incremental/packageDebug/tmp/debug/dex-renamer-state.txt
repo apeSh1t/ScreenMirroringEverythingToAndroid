@@ -1,18 +1,18 @@
-#Sun Feb 04 14:56:46 CST 2024
-base.0=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.10=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.11=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.12=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.13=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.2=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.4=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.5=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.6=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.7=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.8=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.9=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\src\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+#Sun Feb 18 10:51:55 CST 2024
+base.0=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.10=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.11=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.12=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.13=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.2=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.4=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.5=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.6=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.7=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.8=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.9=D\:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.10=4/classes.dex

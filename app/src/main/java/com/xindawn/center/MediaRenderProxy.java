@@ -104,6 +104,10 @@ public class MediaRenderProxy implements IBaseEngine{
 		mIntentForScreenCast.setAction(ScreenCastService.RESTART_RENDER_ENGINE);
 		mContext.startService(mIntentForScreenCast);
 
+		// 增加HarmonyOS的支持
+
+
+
 		return true;
 	}
 

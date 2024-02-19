@@ -160,13 +160,11 @@ private static final CommonLog log = LogFactory.createLog();
 
 	private void start(){
 		DMRCenter.killStaticInstance();
-
 		mRenderProxy.startEngine();
 	}
 	
 	private void reset(){
 		DMRCenter.killStaticInstance();
-
 		mRenderProxy.restartEngine();
 	}
 	
