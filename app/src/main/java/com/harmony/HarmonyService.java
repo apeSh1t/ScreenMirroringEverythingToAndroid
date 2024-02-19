@@ -354,6 +354,7 @@ public class HarmonyService extends Service {
             DisplayInfo displayInfo;
             switch (msg.what) {
                 case Constant.EVENT_ID_SERVICE_BIND_SUCCESS: //4001
+                    // 标识服务启动成功，在此消息下设置大屏端设备投屏能力、大屏端设备信息、鉴权模式信息；
                     int framerate = 30;
                     int optimizationMode = 1;
                     setCapability(1920, 1080, framerate, optimizationMode);
@@ -366,6 +367,7 @@ public class HarmonyService extends Service {
                     break;
 
                 case Constant.EVENT_ID_CONNECT_REQ: { //4012
+                    // 大屏端跳转到投屏界面，该消息携带手机端设备信息DisplayInfo对象，开发者通过displayInfo.getProjectionDevice()获取手机端设备信息对象
                     Log.e(TAG, "handleMessage: "+"EVENT_ID_CONNECT_REQ" );
                     if (mIsPinShown) {
                         sendBroadcastToActivity(BROADCAST_ACTION_FINISH_PIN_ACTIVITY);
@@ -381,6 +383,7 @@ public class HarmonyService extends Service {
                 }
                 break;
 //                case Constant.EVENT_ID_PIN_CODE_SHOW: { // 4010
+                      // 标识有设备正在请求连接，大屏端提供界面供用户选择是否允许此次连接，若允许，通过该消息获取PIN码并展示，以供手机端输入PIN进行连接
 //                    Log.e(TAG, "handleMessage: "+"EVENT_ID_PIN_CODE_SHOW" );
 //                    mIsPinShown = true;
 //                    displayInfo = (DisplayInfo) msg.obj;
@@ -420,6 +423,7 @@ public class HarmonyService extends Service {
                     break;
 
                 case Constant.EVENT_ID_PAUSED:
+                    // 大屏端可设置Surface对象并开始播放投屏视频流
                     mCastServiceReady = true;
                     startPlay();
                     break;
