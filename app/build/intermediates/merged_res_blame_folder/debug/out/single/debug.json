@@ -20,8 +20,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\anim\\popup_exit.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_network_bad_icon.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_network_bad_icon.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_function_level3.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_function_level3.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_public_arrow.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\public_arrow.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_media_bacground.png.flat",
@@ -52,20 +60,20 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_play.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_settings_logo.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\settings_logo.png"
-    },
-    {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_more.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_more.png"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sys_dialog_item_color.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\sys_dialog_item_color.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_screenmode_full.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_screenmode_full.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sys_dialog_item_color.xml.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\sys_dialog_item_color.xml"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_settings_logo.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\settings_logo.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_more.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_more.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_main_setting.xml.flat",
@@ -76,8 +84,20 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\dms_share_choice_item.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_public_arrow.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\public_arrow.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_media_item_bg_normal.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_media_item_bg_normal.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_alert.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\activity_alert.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_icon_cast_engine.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_icon_cast_engine.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_transfer_list_bg_selected.png.flat",
@@ -92,16 +112,28 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dms_storage_flash.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_svglist.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\svglist.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_input_disabled.9.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\input_disabled.9.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_function_level2.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_function_level2.png"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_network_bad_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_network_bad_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_network_bad_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_network_bad_tx_bg.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_media_toolbar_layout.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\media_toolbar_layout.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_function_level2.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_function_level2.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_plug_vp_bright_mode.xml.flat",
@@ -112,6 +144,14 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_prev_normal.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector_anim_general_show.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\vector_anim_general_show.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_pic_close_pressed.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_close_pressed.png"
     },
@@ -120,8 +160,20 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\progress_thumb_n.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_network_general_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_network_general_icon.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_device_item.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_device_item.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_network_worse_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_network_worse_tx_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\anim_anim_alpha.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\anim\\anim_alpha.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_music_toolbar_layout.xml.flat",
@@ -132,8 +184,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_function_level5.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_toast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_toast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout-land-480x320_main.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout-land-480x320\\main.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_svglist.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\svglist.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_plug_pic_zoomout.xml.flat",
@@ -152,20 +212,36 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_last_level_dir.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_last_level_dir.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sys_dialog_item_bg.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\sys_dialog_item_bg.xml"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_last_level_dir.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_last_level_dir.png"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_layer_list_sgvbutton_selected.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\layer_list_sgvbutton_selected.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_dmp_refresh.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\dmp_refresh.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_public_arrow.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\public_arrow.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_dmp_transfer_list_item.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\dmp_transfer_list_item.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_public_arrow.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\public_arrow.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_network_bad_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_network_bad_tx_bg.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_plug_pic_close.xml.flat",
@@ -184,6 +260,14 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\button_normal.9.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\anim_anim_total.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\anim\\anim_total.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_svgbutton_unselected.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\svgbutton_unselected.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_plugin_music_controller.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\plugin_music_controller.xml"
     },
@@ -200,20 +284,32 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_bright1.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_background_cast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background_cast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_plugin_music_play.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\plugin_music_play.xml"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_next.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_next.png"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_switch_track.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\switch_track.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_screengo_2.jpg.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\screengo_2.jpg"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_next.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_next.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_music_player_layout.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\music_player_layout.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_settings_on.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\settings_on.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dms_set_share_normal.png.flat",
@@ -222,10 +318,6 @@
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_volume_sub.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_volume_sub.png"
-    },
-    {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_settings_on.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\settings_on.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings_item_bg_pressed.xml.flat",
@@ -240,6 +332,10 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_video_item.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_background_cast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background_cast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_pic_play.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_play.png"
     },
@@ -252,12 +348,28 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\sys_progress_dialog.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_network_worse_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_network_worse_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_network_general_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_network_general_icon.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_main_function_item.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\main_function_item.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\anim_info_translate_anim.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\anim\\info_translate_anim.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_sys_dialog_info.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\sys_dialog_info.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_network_worse_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_network_worse_icon.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_item_bg_normal.png.flat",
@@ -268,8 +380,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\progress_second.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_network_bad_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_network_bad_tx_bg.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_head_btn_color.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\head_btn_color.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_item_bg_selected.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_item_bg_selected.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_media_loading_layout.xml.flat",
@@ -280,16 +400,32 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_zoomin_pressed.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_item_bg_selected.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_item_bg_selected.png"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_public_arrow.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\public_arrow.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_sys_select_dialog_singlechoice.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\sys_select_dialog_singlechoice.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cast_logo.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\ic_cast_logo.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_network_general_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_network_general_tx_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_network_general_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_network_general_tx_bg.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_dmp_transfer_list_selector.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\dmp_transfer_list_selector.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_switch_gray_track.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\switch_gray_track.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_pic_zoomin_normal.png.flat",
@@ -308,6 +444,10 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\btn_pause_p.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_network_worse_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_network_worse_tx_bg.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_function_level6.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_function_level6.png"
     },
@@ -316,8 +456,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\music_loading_layout.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_network_general_tx_bg.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_network_general_tx_bg.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_media_progress.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\media_progress.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_toast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_toast.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dms_share_audio.png.flat",
@@ -364,6 +512,10 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\sys_dialog_center.9.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_network_general_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_network_general_tx_bg.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_pic_slide_pressed.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_slide_pressed.png"
     },
@@ -376,12 +528,28 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_bright2.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_icon_cast_engine.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_icon_cast_engine.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_icon_cast_engine.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_icon_cast_engine.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_svglist.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\svglist.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_transfer_head_bg_sep.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_transfer_head_bg_sep.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_sys_dialog_top.9.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\sys_dialog_top.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector_anim_bad_show.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\vector_anim_bad_show.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\anim_popup_enter.xml.flat",
@@ -400,32 +568,36 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\sys_btn_pressed.9.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings_item_bg.xml.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\settings_item_bg.xml"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_network_bad_tx_bg.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_network_bad_tx_bg.xml"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sys_btn_radio.xml.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\sys_btn_radio.xml"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings_item_bg.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\settings_item_bg.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_progress.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_progress.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sys_btn_radio.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\sys_btn_radio.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_refresh_selected.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_refresh_selected.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_screenmode_original.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_screenmode_original.png"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_network_bad_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_network_bad_icon.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_function_level1.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_function_level1.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_seekbar_thumb.xml.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\seekbar_thumb.xml"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_screenmode_original.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_screenmode_original.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_preference_dialog_edittext.xml.flat",
@@ -436,8 +608,24 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\dlna_settings.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_seekbar_thumb.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\seekbar_thumb.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_selector_edit.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\selector_edit.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_network_general_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_network_general_tx_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_wlan.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\ic_wlan.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_svglist.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\svglist.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_plug_pic_slide.xml.flat",
@@ -460,12 +648,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\dms_share_folder.xml"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_seekbar_background.xml.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\seekbar_background.xml"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_network_bad_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_network_bad_tx_bg.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_seekbar_style.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_seekbar_style.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_seekbar_background.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\seekbar_background.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_circle_white_24dp.xml.flat",
@@ -476,8 +668,24 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_image_item.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_svgbutton_selected.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\svgbutton_selected.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_select_background.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\select_background.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_stop.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_stop.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_toast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_toast.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_network_worse_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_network_worse_icon.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_dmp_path_text_color.xml.flat",
@@ -500,8 +708,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\selector_btn_pause.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_switch_blue_track.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\switch_blue_track.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_media_item_bg_selected.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_media_item_bg_selected.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_network_general_icon.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_network_general_icon.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_key_ok.png.flat",
@@ -516,8 +732,36 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\sys_alert_dialog.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_public_arrow.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\public_arrow.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_background_cast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background_cast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_dmp_transfer_head.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\dmp_transfer_head.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_network_worse_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_network_worse_tx_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_network_worse_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_network_worse_tx_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_svglist.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\svglist.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_network_general_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_network_general_icon.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_pic_close_normal.png.flat",
@@ -552,16 +796,24 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_svglist.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\svglist.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_progress_first.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\progress_first.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dms_storage_sdcard.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dms_storage_sdcard.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_pic_prev_pressed.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_prev_pressed.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dms_storage_sdcard.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dms_storage_sdcard.png"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_logo.png.flat",
@@ -596,6 +848,10 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\plug_pic_next.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_layer_list_sgvbutton_unselected.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\layer_list_sgvbutton_unselected.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_media_prepare_layout.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\media_prepare_layout.xml"
     },
@@ -608,8 +864,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\plugin_picture_play.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_svgdialog.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\svgdialog.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_settings_name_icon.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\settings_name_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_network_general_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_network_general_tx_bg.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_sys_btn_radio_pressed.png.flat",
@@ -618,6 +882,10 @@
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_exit.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_exit.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_network_bad_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_network_bad_tx_bg.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_pause.png.flat",
@@ -644,6 +912,14 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dms_media_sharing.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_network_worse_icon.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_network_worse_icon.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_icon_cast_engine.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_icon_cast_engine.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_settings_of.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\settings_of.png"
     },
@@ -656,8 +932,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_key_back.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector_anim_worse_show.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\vector_anim_worse_show.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dms_storage_usb.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dms_storage_usb.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_icon_cast_engine.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_icon_cast_engine.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout-land-480x320_dms_share_choice.xml.flat",
@@ -668,12 +952,24 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_slide_normal.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_network_general_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_network_general_icon.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_dmp_selected.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_dmp_selected.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_pressed.9.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\button_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_network_bad_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_network_bad_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_play.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\activity_play.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_preference_dialog.xml.flat",
@@ -684,12 +980,24 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_btn_bg_normal.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_unfocus.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\shape_unfocus.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_progress_white.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\progress_white.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_network_bad_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_network_bad_icon.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_path_split.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_path_split.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings_item_bg_selected.xml.flat",
@@ -700,12 +1008,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_screenmode_169.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_progress_blue.xml.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\progress_blue.xml"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_dmp_normal.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_dmp_normal.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_progress_blue.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\progress_blue.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\anim_main_head_top_out.xml.flat",
@@ -720,6 +1032,10 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\color\\main_title_color.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_network_general_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_network_general_icon.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_refresh_normal.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_refresh_normal.png"
     },
@@ -732,16 +1048,44 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\btn_play_p.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_network_general_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_network_general_icon.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_volume_add.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_volume_add.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_network_general_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_network_general_tx_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_bright4.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_bright4.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_toast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_toast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout-land-1024x600_main.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout-land-1024x600\\main.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_network_bad_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_network_bad_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_network_worse_tx_bg.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_network_worse_tx_bg.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_btn_bg_pressed.png.flat",
@@ -756,8 +1100,16 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_dms_selected.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_background_cast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background_cast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_audio_item.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_audio_item.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_network_worse_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_network_worse_icon.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_header.png.flat",
@@ -768,16 +1120,40 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\sys_btn_normal.9.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_icon_cast_engine.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_icon_cast_engine.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_input_normal.9.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\input_normal.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_toast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_toast.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout_dmp_transfer_dialog.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout\\dmp_transfer_dialog.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_network_worse_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_network_worse_tx_bg.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_pic_stop.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_pic_stop.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_network_worse_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_network_worse_tx_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_network_bad_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_network_bad_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_switch_thumb.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\switch_thumb.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_selector_btn_play.xml.flat",
@@ -796,6 +1172,10 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_transfer_selected.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_background_cast.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_background_cast.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_msc_bg.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_msc_bg.png"
     },
@@ -804,12 +1184,24 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\media_tool_bg1.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_toast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_toast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_media_playing.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_media_playing.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_network_bad_tx_bg.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_network_bad_tx_bg.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_key_operate.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_key_operate.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_svglist.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\svglist.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_sys_btn_radio_normal.png.flat",
@@ -820,24 +1212,36 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout-land-1024x600\\dms_share_choice.xml"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_vp_remote_bg.9.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\vp_remote_bg.9.png"
-    },
-    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_pause_n.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\btn_pause_n.png"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_screengo_1.jpg.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\screengo_1.jpg"
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_vp_remote_bg.9.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\vp_remote_bg.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_icon_cast_engine.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_icon_cast_engine.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_icon.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_screengo_1.jpg.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\screengo_1.jpg"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_background_cast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background_cast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_transfer_video.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_transfer_video.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_layer_list_svgdialog.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\layer_list_svgdialog.xml"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_selector_btn.xml.flat",
@@ -848,36 +1252,52 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\dms_set_share.xml"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_input_pressed.9.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\input_pressed.9.png"
-    },
-    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dms_media_store.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dms_media_store.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_input_pressed.9.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\input_pressed.9.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sys_btn.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\sys_btn.xml"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_background_cast.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background_cast.png"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_plug_vp_btn_bg.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\plug_vp_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_transfer_audio.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_transfer_audio.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_network_worse_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_network_worse_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_layer_list_bg.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\layer_list_bg.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_plug_vp_seek_thumb.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\plug_vp_seek_thumb.xml"
     },
     {
-        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_transfer_normal.png.flat",
-        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_transfer_normal.png"
-    },
-    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\layout-land-864x480_dms_share_choice.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\layout-land-864x480\\dms_share_choice.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_dmp_transfer_normal.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\dmp_transfer_normal.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_function_level4.png.flat",
@@ -896,12 +1316,28 @@
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     },
     {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_wireless_projection.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\ic_wireless_projection.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_network_worse_icon.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_network_worse_icon.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_toast.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_toast.xml"
+    },
+    {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_setting_selected.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\main_setting_selected.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable_dms_switch_share.xml.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable\\dms_switch_share.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_public_arrow.png.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\public_arrow.png"
     },
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_main_setting_normal.png.flat",
@@ -926,5 +1362,9 @@
     {
         "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_plug_vp_bright5.png.flat",
         "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\drawable-mdpi\\plug_vp_bright5.png"
+    },
+    {
+        "merged": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\merged_res\\debug\\anim_path_change_anim.xml.flat",
+        "source": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\src\\main\\res\\anim\\path_change_anim.xml"
     }
 ]

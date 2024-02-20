@@ -5,11 +5,11 @@
 				 tools:ignore="NewApi">
 
 	<target
-			android:animation="@animator/info_translate_anim"
+			android:animation="@anim/info_translate_anim"
 			android:name="network_bad"/>
 
 	<target
-			android:animation="@animator/path_change_anim"
+			android:animation="@anim/path_change_anim"
 			android:name="path_change"/>
 
 

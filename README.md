@@ -18,13 +18,13 @@
 
 ### 1.1 移植项目debug
 
-* 从github clone下来RxDNSSD之后无法用AS正常解析，==Gradle project sync failed. Basic functionality (e.g. editing, debugging) will not work properly==，解析超时time out。
+* 从github clone下来RxDNSSD之后无法用AS正常解析，<mark>Gradle project sync failed. Basic functionality (e.g. editing, debugging) will not work properly</mark>，解析超时time out。
 
   解决方法：
 
   gradle版本下载不全，参照[解决Android studio Connection timed out: connect（方法全整理，持续更新）_android studio connect timed out-CSDN博客](https://blog.csdn.net/weixin_40535588/article/details/113883411)方法二
-* ==Unsupported Java.
-  Your build is currently configured to use Java 17.0.7 and Gradle 7.0.2.==
+* <mark>Unsupported Java.
+  Your build is currently configured to use Java 17.0.7 and Gradle 7.0.2.</mark>
 
   java版本和gradle版本不匹配，更换java版本比较方便
 
@@ -36,14 +36,14 @@
 
 * 项目提供了三种库，分别是DNSSD，RxDnssd和Rx2Dnssd
 
-* 三种库都提供了两种接口，分别是Bindable和Embedded。以Dnssd 库为例，提供了 DNSSD 接口的两种实现：一种是==DNSSBindable==，是DNSSD带有系统守护程序的实现。用于API 高于4.1 的 Android 项目，以节省电池消耗（某些三星设备无法使用此实现）。另一种是==DNSSDEmbedded==，这是具有嵌入式DNS-SD核心的RxDnssd的实现
-* 其中==DNSSDEmbedded==的实现在DNSSDActivity中，==Rx2DnssdEmbedded==的实现在MainActivity中；
+* 三种库都提供了两种接口，分别是Bindable和Embedded。以Dnssd 库为例，提供了 DNSSD 接口的两种实现：一种是<mark>DNSSBindable</mark>，是DNSSD带有系统守护程序的实现。用于API 高于4.1 的 Android 项目，以节省电池消耗（某些三星设备无法使用此实现）。另一种是<mark>DNSSDEmbedded</mark>，这是具有嵌入式DNS-SD核心的RxDnssd的实现
+* 其中<mark>DNSSDEmbedded</mark>的实现在DNSSDActivity中，<mark>Rx2DnssdEmbedded</mark>的实现在MainActivity中；
 
   * 两者都实现了 Bonjour 服务的浏览和注册功能，并在 UI 中展示浏览到的服务信息。
   * 两者都考虑了线程处理，确保在执行网络操作时不阻塞主线程，以保持应用的响应性。
   * 两者都考虑了生命周期管理，确保在适当的生命周期方法中启动和停止服务浏览和注册。
 
-   RxAndroidDNSSD 使用 RxJava 这样的响应式编程库，适用于那些熟悉使用 RxJava 的开发者。而 DNSSD 则是更传统的使用回调监听器的方式。根据项目介绍，**`Since targetSDK = 31(Android 12) system's deamon was deprecated by Google. Consider switching to an Embedded version or some other solution.`**​，还是不要使用DNSSDBindable接口。
+   RxAndroidDNSSD 使用 RxJava 这样的响应式编程库，适用于那些熟悉使用 RxJava 的开发者。而 DNSSD 则是更传统的使用回调监听器的方式。根据项目介绍，`Since targetSDK = 31(Android 12) system's deamon was deprecated by Google. Consider switching to an Embedded version or some other solution.`​，还是不要使用DNSSDBindable接口。
 
 #### 1.2.1 MainActivity.java
 
@@ -184,7 +184,7 @@ DNSSD这个库封装很完善，也比较出名，但是笔者只成功发送了
 
 # Step1 IOS投屏
 
-==tips：本次开发demo以这个项目为基础，在此基础上修改与添加==
+<mark>tips：本次开发demo以这个项目为基础，在此基础上修改与添加</mark>
 
 项目名称：airplay_dlna_googlecast
 
@@ -198,7 +198,7 @@ DNSSD这个库封装很完善，也比较出名，但是笔者只成功发送了
 
 ### 设备发现
 
-如何让ios手机在原生的屏幕镜像功能中发现投屏设备，这是完成投屏的第一项任务。在==PlatinumJniProxy.java==文件的`startMediaRender_Java`​方法中，通过调用C++ native方法
+如何让ios手机在原生的屏幕镜像功能中发现投屏设备，这是完成投屏的第一项任务。在<mark>PlatinumJniProxy.java</mark>文件的`startMediaRender_Java`​方法中，通过调用C++ native方法
 
 ```java
 public static native int startMediaRender(String friendname,String libpath,String activecode,int width,int height ,int airtunes_port,int airplay_port,int rcv_size,Context obj );

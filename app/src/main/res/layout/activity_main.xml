@@ -5,6 +5,7 @@
 	android:orientation="horizontal">
 
 	<LinearLayout
+		android:id="@+id/linearLayout"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="5dp"
@@ -109,13 +110,13 @@
 
 	<RelativeLayout
 		android:id="@+id/device_info_bg"
-		android:layout_above="@+id/device_info"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:paddingRight="@dimen/head_btn_pleft"
-		android:background="@drawable/screengo_1">
+		android:background="@drawable/screengo_1"
+		android:paddingRight="@dimen/head_btn_pleft">
 
 		<RelativeLayout
+			android:id="@+id/relativeLayout2"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_alignParentRight="true"
@@ -124,17 +125,9 @@
 			<ImageView
 				android:id="@+id/screengo_img_qr"
 				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"/>
-			<TextView
-				android:id="@+id/screengo_name_id"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:layout_below="@+id/screengo_img_qr"
-				android:layout_centerHorizontal="true"
-				android:text="@string/device_android"
-				android:textColor="@color/white"
-				android:textSize="20sp" />
+				android:layout_height="wrap_content" />
 		</RelativeLayout>
+
 	</RelativeLayout>
 
 	<RelativeLayout
@@ -148,6 +141,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_centerInParent="true">
+
 			<TextView
 				android:id="@+id/tv_dev_info"
 				android:layout_width="wrap_content"
@@ -155,30 +149,22 @@
 				android:layout_centerHorizontal="true"
 				android:textColor="@color/black"
 				android:textSize="22sp" />
-			<RelativeLayout
-				android:layout_width="match_parent"
-				android:layout_height="wrap_content"
-				android:layout_alignLeft="@+id/tv_dev_info"
-				android:layout_below="@+id/tv_dev_info">
-
-				<TextView
-					android:id="@+id/version_info"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:text="@string/settings_version"
-					android:textColor="@color/black"
-					android:textSize="18sp" />
-
-				<TextView
-					android:id="@+id/version_info_v"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:layout_toRightOf="@+id/version_info"
-					android:paddingLeft="@dimen/padding_left"
-					android:text="@string/app_name"
-					android:textColor="@color/black"
-					android:textSize="18sp" />
-			</RelativeLayout>
 		</RelativeLayout>
+
 	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/wifi_info_bg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		>
+
+		<TextView
+			android:id="@+id/wifi_name_textview"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="TextView" />
+	</RelativeLayout>
+
 </RelativeLayout>

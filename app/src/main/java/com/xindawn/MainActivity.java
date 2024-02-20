@@ -1,7 +1,18 @@
 package com.xindawn;
 
+import android.Manifest;
+import android.bluetooth.BluetoothAdapter;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -10,6 +21,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.harmony.HarmonyService;
+import com.harmony.SharedPreferenceUtil;
 import com.xindawn.center.DMRCenter;
 import com.xindawn.center.MediaRenderProxy;
 import com.xindawn.datastore.LocalConfigSharePreference;
@@ -25,7 +38,8 @@ import com.xindawn.util.LogFactory;
  */
 public class MainActivity extends BaseActivity implements OnClickListener, DeviceUpdateBrocastFactory.IDevUpdateListener{
 
-private static final CommonLog log = LogFactory.createLog();
+	private static final String TAG = "MainActivity";
+	private static final CommonLog log = LogFactory.createLog();
 	
 	private Button mBtnStart;
 	private Button mBtnReset;
@@ -34,7 +48,6 @@ private static final CommonLog log = LogFactory.createLog();
 	private Button mBtnEditName;
 	private EditText mETName;
 	private TextView mTVDevInfo;
-	private TextView mVersion;
 
 	private CheckBox mCkAuto;          //用于显示选项
 	private CheckBox mCkFullscreen;
@@ -43,6 +56,11 @@ private static final CommonLog log = LogFactory.createLog();
 	private MediaRenderProxy mRenderProxy;
 	private RenderApplication mApplication;
 	private DeviceUpdateBrocastFactory mBrocastFactory;
+
+	// HarmonyOS
+	private boolean mIsDiscoverable;
+	private TextView mWifiNameTextView;
+	private WifiManager mWifi;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +89,40 @@ private static final CommonLog log = LogFactory.createLog();
 		super.onDestroy();
 	}
 
+	@Override
+	protected void onResume() {
+		super.onResume();
+		Log.d(TAG, "onResume() called");
+		// 更新可发现信息
+		mIsDiscoverable = SharedPreferenceUtil.getDiscoverable(this);
+		Intent setDiscoverableIntent = new Intent();
+		setDiscoverableIntent.setAction(HarmonyService.BROADCAST_ACTION_SET_DISCOVERABLE);
+		setDiscoverableIntent.putExtra("discoverable", mIsDiscoverable);
+		sendBroadcast(setDiscoverableIntent);
+
+		Log.d(TAG,
+				"onResume(), mIsDiscoverable: " + mIsDiscoverable);
+
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			if (checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED ||
+					checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+				requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION}, 0);
+			}
+		}
+
+		mWifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+		if (mWifi != null) {
+			WifiInfo wifiInfo = mWifi.getConnectionInfo();
+			if (wifiInfo != null) {
+				String ssid = wifiInfo.getSSID();
+				if (!TextUtils.isEmpty(ssid) && ssid.startsWith("\"") && ssid.endsWith("\"")) {
+					mWifiNameTextView.setText("网络名称：" + ssid.substring(1, ssid.length() - 1));
+				} else {
+					mWifiNameTextView.setText("网络名称：" + ssid);
+				}
+			}
+		}
+	}
 
 
 
@@ -85,7 +137,6 @@ private static final CommonLog log = LogFactory.createLog();
     	mBtnEditName.setOnClickListener(this);
     	
     	mTVDevInfo = (TextView) findViewById(R.id.tv_dev_info);
-		mVersion = findViewById(R.id.version_info_v);
     	mETName = (EditText) findViewById(R.id.et_dev_name);
 
 
@@ -95,6 +146,9 @@ private static final CommonLog log = LogFactory.createLog();
     	mCkFullscreen.setOnClickListener(this);
 		mCkForceMirroring = (CheckBox) findViewById(R.id.checkbox3);
 		mCkForceMirroring.setOnClickListener(this);
+
+		// HarmonyOS
+		mWifiNameTextView = findViewById(R.id.wifi_name_textview);
 	}
 
 	private void initData(){
@@ -116,7 +170,6 @@ private static final CommonLog log = LogFactory.createLog();
 
 	private void unInitData(){
 		stop();
-
 		mBrocastFactory.unregister();
 	}
 
@@ -124,7 +177,6 @@ private static final CommonLog log = LogFactory.createLog();
 		String status = object.status ? "open" : "close";
 		String text = RenderApplication.getInstance().getVersionName()+"."+RenderApplication.getInstance().getVersionCode();
 		mTVDevInfo.setText(object.dev_name);
-		mVersion.setText(text);
 
 		//fuck : this doesn't work ,MUST BE RenderApplication.getInstance()
 		log.d("updateDevInfo:"+LocalConfigSharePreference.getSettingsVal(RenderApplication.getInstance(),"autoBoot")+" "+LocalConfigSharePreference.getSettingsVal(RenderApplication.getInstance(),"forceFullScreen"));
@@ -162,10 +214,24 @@ private static final CommonLog log = LogFactory.createLog();
 		DMRCenter.killStaticInstance();
 		mRenderProxy.startEngine();
 	}
-	
+
 	private void reset(){
 		DMRCenter.killStaticInstance();
 		mRenderProxy.restartEngine();
+
+		// start HarmonyOS service
+		Intent intent = new Intent(MainActivity.this, HarmonyService.class);
+		startService(intent);
+
+		mIsDiscoverable = SharedPreferenceUtil.getDiscoverable(MainActivity.this);
+		mIsDiscoverable = !mIsDiscoverable;
+		Log.d(TAG, "mMainSwitchLayout onClick(), mIsDiscoverable: " + mIsDiscoverable);
+		SharedPreferenceUtil.setDiscoverable(MainActivity.this, mIsDiscoverable);
+
+		Intent setDiscoverableIntent = new Intent();
+		setDiscoverableIntent.setAction(HarmonyService.BROADCAST_ACTION_SET_DISCOVERABLE);
+		setDiscoverableIntent.putExtra("discoverable", mIsDiscoverable);
+		sendBroadcast(setDiscoverableIntent);
 	}
 	
 	private void stop(){

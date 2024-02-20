@@ -16,11 +16,41 @@
         <item>單曲循環</item>
         <item>全部曲目循環播放</item>
     </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格鍵"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="allow_this_time">allow_this_time</string>
+    <string name="always_allow">always_allow</string>
     <string name="app_name">screenGo.TV</string>
     <string name="btn_refresh">刷新</string>
     <string name="device_airplay">Airplay</string>
     <string name="device_android">ScreenGo app</string>
     <string name="device_name">eHomeMediaCenter</string>
+    <string name="device_unavailable">ERROR: this device is unavailable</string>
     <string name="device_windows">USB transmitter</string>
     <string name="dialog_cancel">取消</string>
     <string name="dialog_ok">確定</string>
@@ -32,6 +62,7 @@
     <string name="dialog_waiting">請稍等</string>
     <string name="dialog_wlan_fail">網絡設置</string>
     <string name="dialog_wlan_msg">啟動DLNA需要打開WLAN功能, 確定打開?</string>
+    <string name="digit">ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklnmopqrstuvwxyz0123456789</string>
     <string name="dmd_clear_transfer_all">清除全部</string>
     <string name="dmd_clear_transfer_msg">確認要清除傳輸項嗎?</string>
     <string name="dmd_clear_transfer_succ">清除完成項</string>
@@ -102,11 +133,16 @@
     <string name="dms_usb_storage">USB</string>
     <string name="dms_video">我的視頻</string>
     <string name="dmu_device_selector_title">上傳至</string>
+    <string name="encrypted_access">encrypted_access</string>
+    <string name="introduce_content">To use Cast Engine，you need to use Huawei device which version is up to EMUI 10.1</string>
     <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
     <string name="main_dms_initing">媒體設備正在初始化,請稍後...</string>
     <string name="main_logo_name">eHomeMediaCenter</string>
     <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="network_name">network_name</string>
     <string name="no_such_app">沒有應用程序可以打開這個文件!</string>
+    <string name="password">password</string>
+    <string name="pin_code">pin_code</string>
     <string name="plug_image_app_name">圖片查看器</string>
     <string name="plug_image_first_img">已經是第一張圖片</string>
     <string name="plug_image_last_img">已經是最後一張圖片</string>
@@ -123,6 +159,8 @@
     <string name="plug_video_playmode_title">選擇播放模式</string>
     <string name="plug_video_unsupport_seek">不支持跳轉</string>
     <string name="plug_video_waiting">請稍後</string>
+    <string name="reject">reject</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
     <string name="settings_airplay_forcemirroring">Airplay 强制镜像投屏</string>
     <string name="settings_airplaymirror_fullscreen">屏幕镜像投屏强制满屏</string>
     <string name="settings_auto_no">不自動運行</string>
@@ -141,5 +179,9 @@
     <string name="settings_upload_location">遠程文件上傳位置</string>
     <string name="settings_upload_reject">禁止上傳</string>
     <string name="settings_version">版本信息</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="television_name">television_name</string>
     <string name="toast_disconn_service">未連接上D L N A服務</string>
+    <string name="want_to_connect">want_to_connect</string>
+    <string name="wireless_projection">Cast Engine Screen Mirroring</string>
 </resources>

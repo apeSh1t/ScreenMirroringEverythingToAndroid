@@ -66,6 +66,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
     }
     ndkVersion '22.1.7171670'
+
+    lintOptions {
+        abortOnError false //不在error情况下中断
+        disable 'MissingTranslation' //无视字符串缺少本地化的情况
+        disable 'ExtraTranslation'//无视多做了本地化的字符串
+    }
 }
 
 dependencies {

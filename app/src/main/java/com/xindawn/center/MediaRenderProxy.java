@@ -2,6 +2,7 @@ package com.xindawn.center;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import com.xindawn.DLAN.DMR.DMRService;
 import com.xindawn.RenderApplication;
@@ -103,10 +104,6 @@ public class MediaRenderProxy implements IBaseEngine{
 		mIntentForScreenCast.setClass(mContext, ScreenCastService.class);
 		mIntentForScreenCast.setAction(ScreenCastService.RESTART_RENDER_ENGINE);
 		mContext.startService(mIntentForScreenCast);
-
-		// 增加HarmonyOS的支持
-
-
 
 		return true;
 	}

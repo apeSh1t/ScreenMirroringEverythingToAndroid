@@ -145,24 +145,15 @@
     <string name="device_airplay">苹果Airplay</string>
     <string name="device_android">投屏狗app</string>
 
-<!--    HarmonyOS-->
+    <!--    HarmonyOS-->
 
     <string name="wireless_projection">Cast Engine 投屏</string>
     <string name="encrypted_access">加密访问</string>
     <string name="password">密码</string>
     <string name="introduce_content">使用Cast Engine 投屏，将您手机上的内容投送到投影大屏上，需要使用华为手机EMUI 10.1及以上版本</string>
-    <string name="step1_description">将手机和投影大屏连接到同一WiFi网络下，在手机下拉状态栏中选择 [ 无线投屏 ]</string>
-    <string name="step2_description">选择搜索到的投影大屏，进行投屏</string>
     <string name="network_name">网络名称</string>
     <string name="television_name">电视名称</string>
 
-
-    <string name="please_input_pwd">请输入六位密码</string>
-    <string name="only_letters_numbers">密码仅支持字母及数字</string>
-    <string name="change_password">修改密码</string>
-    <string name="input_pwd_on_phone">在手机上输入此密码可发起投屏</string>
-    <string name="cancel">取消</string>
-    <string name="sure">确认</string>
 
     <string name="pin_code">无线投屏连接码</string>
     <string name="device_unavailable">错误：设备名称不可用</string>
@@ -172,7 +163,5 @@
     <string name="allow_this_time">本次允许</string>
     <string name="always_allow">总是允许</string>
 
-    <string name="input_digits">请输入六位密码</string>
-    <string name="contain_digits">密码仅支持字母及数字</string>
     <string name="digit">ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklnmopqrstuvwxyz0123456789</string>
 </resources>

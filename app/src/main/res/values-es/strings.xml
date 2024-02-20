@@ -138,4 +138,23 @@
     <string name="device_windows">USB transmitter</string>
     <string name="device_airplay">Airplay</string>
     <string name="device_android">ScreenGo app</string>
+
+    <!--    HarmonyOS-->
+
+    <string name="wireless_projection">Cast Engine Screen Mirroring</string>
+    <string name="encrypted_access">encrypted_access</string>
+    <string name="password">password</string>
+    <string name="introduce_content">To use Cast Engine，you need to use Huawei device which version is up to EMUI 10.1</string>
+    <string name="network_name">network_name</string>
+    <string name="television_name">television_name</string>
+
+    <string name="pin_code">pin_code</string>
+    <string name="device_unavailable">ERROR: this device is unavailable</string>
+
+    <string name="want_to_connect">want_to_connect</string>
+    <string name="reject">reject</string>
+    <string name="allow_this_time">allow_this_time</string>
+    <string name="always_allow">always_allow</string>
+
+    <string name="digit">ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklnmopqrstuvwxyz0123456789</string>
 </resources>

@@ -16,11 +16,41 @@
         <item>Repetir</item>
         <item>Repetir todo</item>
     </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Eliminar"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="allow_this_time">allow_this_time</string>
+    <string name="always_allow">always_allow</string>
     <string name="app_name">screenGo.TV</string>
     <string name="btn_refresh">Actualizar</string>
     <string name="device_airplay">Airplay</string>
     <string name="device_android">ScreenGo app</string>
     <string name="device_name">MediaCenter</string>
+    <string name="device_unavailable">ERROR: this device is unavailable</string>
     <string name="device_windows">USB transmitter</string>
     <string name="dialog_cancel">Cancelar</string>
     <string name="dialog_ok">Aceptar</string>
@@ -32,6 +62,7 @@
     <string name="dialog_waiting">Esperando</string>
     <string name="dialog_wlan_fail">Mostrando</string>
     <string name="dialog_wlan_msg">Para iniciar DLNA debe estar conectado a una red, ¿iniciar?</string>
+    <string name="digit">ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklnmopqrstuvwxyz0123456789</string>
     <string name="dmd_clear_transfer_all">Borra todo</string>
     <string name="dmd_clear_transfer_msg">¿Transferir ese elemento?</string>
     <string name="dmd_clear_transfer_succ">Completado</string>
@@ -102,11 +133,16 @@
     <string name="dms_usb_storage">Disco USB</string>
     <string name="dms_video">Mis vídeos</string>
     <string name="dmu_device_selector_title">Enviar a</string>
+    <string name="encrypted_access">encrypted_access</string>
+    <string name="introduce_content">To use Cast Engine，you need to use Huawei device which version is up to EMUI 10.1</string>
     <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
     <string name="main_dms_initing">Iniciando, espera ...</string>
     <string name="main_logo_name">MediaCenter</string>
     <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="network_name">network_name</string>
     <string name="no_such_app">No hay aplicación para este archivo!</string>
+    <string name="password">password</string>
+    <string name="pin_code">pin_code</string>
     <string name="plug_image_app_name">Mostrar imagen</string>
     <string name="plug_image_first_img">Es la primera imagen</string>
     <string name="plug_image_last_img">Es la última imagen</string>
@@ -122,6 +158,8 @@
     <string name="plug_video_loading">Cargando...</string>
     <string name="plug_video_playmode_title">Modo de reproducción</string>
     <string name="plug_video_waiting">Esperando</string>
+    <string name="reject">reject</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
     <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
     <string name="settings_auto_no">No inicia automáticamente</string>
@@ -135,5 +173,9 @@
     <string name="settings_upload_location">Ubicación de los archivos</string>
     <string name="settings_upload_reject">Enviar no permitido</string>
     <string name="settings_version">Información</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="television_name">television_name</string>
     <string name="toast_disconn_service">Servico desconectado. </string>
+    <string name="want_to_connect">want_to_connect</string>
+    <string name="wireless_projection">Cast Engine Screen Mirroring</string>
 </resources>
