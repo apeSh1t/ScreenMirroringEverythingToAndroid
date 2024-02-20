@@ -225,16 +225,10 @@ public static native int startMediaRender(String friendname,String libpath,Strin
 ```
 
 ### 屏幕镜像
-
 ‍
 
-# Step2 Android屏幕镜像
 
-‍
-
-‍
-
-# Step3 HarmonyOS屏幕镜像
+# Step2 HarmonyOS屏幕镜像
 
 鸿蒙系统提供了投屏服务cast+kit的sdk `Huawei Cast Engine SDK`​，需要以公司开发者的身份去申请，申请网站如下：
 
@@ -280,9 +274,50 @@ SDK中的API说明：[Overview-com.huawei.castpluskit-投屏能力 | 华为开�
 
 对接收到的不同消息进行不同的处理，部分消息的含义没有查找到，故不敢轻易删除，只删除了一些和密码相关的消息处理，相关注释已经标注上。
 
-‍
+## 项目整合
+在介绍整合项目之前，请先阅读本部分:
+* 华为提供的demo中加入了密码、pin等功能，为了和Android、IOS对齐，我删去了这些功能，如果后续需要添加这些功能，可以参考原始demo。
+* 由于截止提交代码时，还无法得到官方SDK，我在github上找到了一份别人发出的SDK（<mark>这个SDK放入官方demo中也不能成功投屏，还是需要申请最新的SDK</mark>），但是该用户明确声明不得传播，因此我加入在了libs中单纯为了验证代码是否出错，能否跑通，故在后续务必将libs中的`HuaweiCastPlusEngine.jar`换为公司申请的SDK。
 
-‍
+为了加入HarmonyOS的功能，我们需要在MainActivity中加入一些必要的代码。首先是覆写`onResume()`方法每次当MainActiity被调度到台前时，需要实时更新显示的信息比如说`网络名称`，以及判断当前设备是否支持投屏功能：
+``` java
+protected void onResume() {
+		super.onResume();
+		Log.d(TAG, "onResume() called");
+		// 更新可发现信息
+		mIsDiscoverable = SharedPreferenceUtil.getDiscoverable(this);
+		Intent setDiscoverableIntent = new Intent();
+		setDiscoverableIntent.setAction(HarmonyService.BROADCAST_ACTION_SET_DISCOVERABLE);
+		setDiscoverableIntent.putExtra("discoverable", mIsDiscoverable);
+		sendBroadcast(setDiscoverableIntent);
+
+		Log.d(TAG, "onResume(), mIsDiscoverable: " + mIsDiscoverable);
+
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			if (checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED ||
+					checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+				requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION}, 0);
+			}
+		}
+
+		mWifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+		if (mWifi != null) {
+			WifiInfo wifiInfo = mWifi.getConnectionInfo();
+			if (wifiInfo != null) {
+				String ssid = wifiInfo.getSSID();
+				if (!TextUtils.isEmpty(ssid) && ssid.startsWith("\"") && ssid.endsWith("\"")) {
+					mWifiNameTextView.setText("网络名称：" + ssid.substring(1, ssid.length() - 1));
+				} else {
+					mWifiNameTextView.setText("网络名称：" + ssid);
+				}
+			}
+		}
+	}
+```
+
+
+# Step3 Android屏幕镜像
+
 
 # Step4 流媒体投屏
 

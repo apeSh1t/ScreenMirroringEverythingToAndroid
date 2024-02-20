@@ -31,20 +31,15 @@ import com.xindawn.util.DlnaUtils;
 import com.xindawn.util.LogFactory;
 
 
-/**
- * @author lance
- * @csdn  http://blog.csdn.net/geniuseoe2012
- * @github https://github.com.xindawn
- */
 public class MainActivity extends BaseActivity implements OnClickListener, DeviceUpdateBrocastFactory.IDevUpdateListener{
 
 	private static final String TAG = "MainActivity";
 	private static final CommonLog log = LogFactory.createLog();
-	
+
 	private Button mBtnStart;
 	private Button mBtnReset;
 	private Button mBtnStop;
-	
+
 	private Button mBtnEditName;
 	private EditText mETName;
 	private TextView mTVDevInfo;
@@ -58,7 +53,7 @@ public class MainActivity extends BaseActivity implements OnClickListener, Devic
 	private DeviceUpdateBrocastFactory mBrocastFactory;
 
 	// HarmonyOS
-	private boolean mIsDiscoverable;
+	private boolean mIsDiscoverable = true;
 	private TextView mWifiNameTextView;
 	private WifiManager mWifi;
 
@@ -68,7 +63,7 @@ public class MainActivity extends BaseActivity implements OnClickListener, Devic
 		setContentView(R.layout.activity_main);
 
 		log.setTag("MainActivity");
-		
+
 		setupView();
 		initData();
 	}
@@ -82,10 +77,10 @@ public class MainActivity extends BaseActivity implements OnClickListener, Devic
 		}
 		return super.onKeyUp(keyCode,event);
 	}*/
-	
+
 	@Override
 	protected void onDestroy() {
-		unInitData();	
+		unInitData();
 		super.onDestroy();
 	}
 
@@ -135,7 +130,7 @@ public class MainActivity extends BaseActivity implements OnClickListener, Devic
     	mBtnReset.setOnClickListener(this);
     	mBtnStop.setOnClickListener(this);
     	mBtnEditName.setOnClickListener(this);
-    	
+
     	mTVDevInfo = (TextView) findViewById(R.id.tv_dev_info);
     	mETName = (EditText) findViewById(R.id.et_dev_name);
 
@@ -159,7 +154,7 @@ public class MainActivity extends BaseActivity implements OnClickListener, Devic
 		String dev_name = DlnaUtils.getDevName(this);
 		mETName.setText(dev_name);
 		mETName.setEnabled(false);
-		
+
 		updateDevInfo(mApplication.getDevInfo());
 		mBrocastFactory.register(this);
 
@@ -220,24 +215,14 @@ public class MainActivity extends BaseActivity implements OnClickListener, Devic
 		mRenderProxy.restartEngine();
 
 		// start HarmonyOS service
-		Intent intent = new Intent(MainActivity.this, HarmonyService.class);
-		startService(intent);
-
-		mIsDiscoverable = SharedPreferenceUtil.getDiscoverable(MainActivity.this);
-		mIsDiscoverable = !mIsDiscoverable;
-		Log.d(TAG, "mMainSwitchLayout onClick(), mIsDiscoverable: " + mIsDiscoverable);
-		SharedPreferenceUtil.setDiscoverable(MainActivity.this, mIsDiscoverable);
-
-		Intent setDiscoverableIntent = new Intent();
-		setDiscoverableIntent.setAction(HarmonyService.BROADCAST_ACTION_SET_DISCOVERABLE);
-		setDiscoverableIntent.putExtra("discoverable", mIsDiscoverable);
-		sendBroadcast(setDiscoverableIntent);
+//		Intent intent = new Intent(MainActivity.this, HarmonyService.class);
+//		startService(intent);
 	}
-	
+
 	private void stop(){
 		mRenderProxy.stopEngine();
 	}
-	
+
 	private void change(){
 		if (mETName.isEnabled()){
 			mETName.setEnabled(false);
