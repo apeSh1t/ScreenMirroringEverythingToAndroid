@@ -1,0 +1,2 @@
+D:\Desktop\gworld\airplay_dlna_googlecast\Android\app\CMakeLists.txt
+D:\Desktop\gworld\airplay_dlna_googlecast\Android\app\src\main\cpp\mDNSResponder\CMakeLists.txt

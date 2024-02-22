@@ -316,12 +316,28 @@ protected void onResume() {
 ```
 
 
-# Step3 Android屏幕镜像
+# Step3 Android
 
 
-# Step4 流媒体投屏
+# Step4 DLNA投送、
+关于DLNA的介绍可以在[Android-Cling投屏](https://wushaohong.gitee.io/2020/11/11/Android-Cling%E6%8A%95%E5%B1%8F/#UPNP%E5%8D%8F%E8%AE%AE)和[DLNA详解](https://www.cnblogs.com/mojies/p/13395237.html#subTitle_head1_93)中了解
+
+先给出四个比较重要的定义：
+* `DMS` <mark>媒体服务器</mark> 存储内容并将其提供给联网的数字媒体播放器（DMP）和数字媒体渲染器（DMR）。示例包括PC和网络附加存储（NAS）设备。
+* `DMP` 在数字媒体服务器（DMS）上查找内容，并提供播放和渲染功能。示例包括电视，立体声音响和家庭影院，无线监视器和游戏机。
+* `DMR` <mark>媒体渲染器</mark> 播放数字媒体控制器（DMC）指示的内容，数字媒体控制器将从数字媒体服务器（DMS）查找内容。 示例包括电视，音频/视频接收器，视频显示器和音乐的远程扬声器。 单个设备（例如电视，A/V 接收器等）有可能同时充当 DMR（从 DMS 接收“推送”内容）和 DMP（从 DMS 提取“内容”）。
+* `DMC` <mark>控制点</mark> 在数字媒体服务器（DMS）上查找内容，并指示数字媒体渲染器（DMR）播放内容。内容不会从 DMC 流过。 例如平板电脑，支持Wi-Fi的数码相机和智能手机。
+
+我们的功能定位在DLNA架构中属于DMR媒体渲染器
+## DLNA-Cast
+DLNA-Cast项目实现了多种流媒体app向android端的视频投送功能，由kotlin语言实现，由于时间比较紧张，没有将该项目整合上去，只是做了一些简化实现。项目保存在DLNA-Cast文件夹中。
 
 项目地址：[devin1014/DLNA-Cast: 基于Cling库封装的DLNA投屏库，支持DMC、DMS、DMR功能。 (github.com)](https://github.com/devin1014/DLNA-Cast)
+
+项目主要由两个模块组成：`dlna-dmr`和`tv`
+
+<mark>dlna-dmr</mark>模块：这是一个Android库，主要实现了DMR的功能。它使用了cling库来实现UPnP协议，从而实现设备的发现和控制。在DLNARendererService.kt文件中，定义了一个DLNARendererService类，这个类是一个Android服务，用于启动和管理DMR设备。  
+<mark>tv</mark>模块：这是一个Android应用程序，它使用了dlna-dmr库来实现DMR功能。在MainActivity.kt文件中，定义了一个MainActivity类，这个类是应用程序的主界面。在这个类中，首先请求了一些必要的权限，然后启动了DLNARendererService服务。 
 
 ‍
 
