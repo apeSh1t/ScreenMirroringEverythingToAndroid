@@ -27,7 +27,6 @@
     "intermediatesFolder": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android\\app\\build\\intermediates\\cxx\\Debug\\6i3b2z16",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A",
       "ARM64_V8A"
     ],
     "buildTargetSet": [],
@@ -127,6 +126,7 @@
         "rootBuildGradleFolder": "D:\\Desktop\\gworld\\airplay_dlna_googlecast\\Android",
         "sdkFolder": "D:\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
+        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },

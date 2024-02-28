@@ -316,10 +316,16 @@ protected void onResume() {
 ```
 
 
-# Step3 Android
+# Step3 ChromeCast(GoogleCast)
+<mark>仍然未解决</mark>
+
+https://developers.google.com/cast/codelabs/cast-connect-atv?hl=zh-cn#0
+https://developers.google.com/cast/docs/sample_apps?hl=zh-cn
+https://developers.google.com/cast/docs/get-started?hl=zh-cn
+https://play.google.com/store/apps/details?id=com.softmedia.receiver.castapp
 
 
-# Step4 DLNA投送、
+# Step4 DLNA投送
 关于DLNA的介绍可以在[Android-Cling投屏](https://wushaohong.gitee.io/2020/11/11/Android-Cling%E6%8A%95%E5%B1%8F/#UPNP%E5%8D%8F%E8%AE%AE)和[DLNA详解](https://www.cnblogs.com/mojies/p/13395237.html#subTitle_head1_93)中了解
 
 先给出四个比较重要的定义：
